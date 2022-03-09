@@ -1,0 +1,5 @@
+{
+    "port": "5000",
+    "mongoUri": "mongodb+srv://xamanan:aFylhtqdthkbycrbq01@cluster0.elh97.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "secret": "THE_SECRET_KEY"
+}

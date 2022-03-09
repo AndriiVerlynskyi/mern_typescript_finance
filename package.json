@@ -1,0 +1,22 @@
+{
+  "name": "mern_typescript_finance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "author": "Andrii Verlynskyi <verligor01@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "concurrently": "^7.0.0",
+    "config": "^3.3.7",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15"
+  }
+}
