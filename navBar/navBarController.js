@@ -23,7 +23,6 @@ class navBarController {
     async getNavBarData ( req, res ) {
         try {
             const navBarData = await NavBarData.find();
-            console.log(navBarData);
             res.json(navBarData);
         } catch (err) {
             console.log(err)
