@@ -16,8 +16,8 @@ interface INavButtonProps {
     navButtonItem: INavButton
 }
 
-const ArrowRightFlag = <ChevronRightIcon sx={{position:'absolute', right:'24px', top:'15px'}}/>;
-const ArrowDownFlag = <KeyboardArrowDownIcon sx={{position:'absolute', right:'24px', top:'15px'}}/>
+const ArrowRightFlag = <ChevronRightIcon sx={{position:'absolute', right:'24px', top:'11px'}}/>;
+const ArrowDownFlag = <KeyboardArrowDownIcon sx={{position:'absolute', right:'24px', top:'11px'}}/>
 
 
 const NavButtonWithCollapse: React.FC <INavButtonProps> = ({ navButtonItem }) => {
